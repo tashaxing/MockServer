@@ -14,7 +14,7 @@ import spray.json.DefaultJsonProtocol._
 import scala.io.StdIn
 import scala.collection.mutable
 
-object MockServer
+object WebServer
 {
     // cors setting for other origin access
     val settings = CorsSettings.defaultSettings.copy(
